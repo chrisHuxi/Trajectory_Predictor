@@ -22,9 +22,9 @@ Therefore, this project aims to implement a **trajectory predictor**, based on l
   
   * We used the **camera and lidar** as sensors, to get the position information of vehicle.
   
-  * We used the [**Mono3DT(for camera)**](https://github.com/ucbdrive/3d-vehicle-tracking) and [**AB3DMOT(for lidar)**](A Baseline for 3D Multi-Object Tracking) as detection and tracking model. A comparison of tracking results shows as following (left: lidar vs right: camera):
+  * We used the [**Mono3DT(for camera)**](https://github.com/ucbdrive/3d-vehicle-tracking) and [**AB3DMOT(for lidar)**](https://github.com/xinshuoweng/AB3DMOT) as detection and tracking model. A comparison of tracking results shows as following (left: lidar vs right: camera):
 
-<div align=center> <img src="https://github.com/chrisHuxi/Trajectory_Predictor/blob/master/readme_images/comparison.gif" alt="drawing" width="500"/> </div>
+<div align=center> <img src="https://github.com/chrisHuxi/Trajectory_Predictor/blob/master/readme_images/comparison_.gif" alt="drawing" width="500"/> </div>
   
   * We used [**the AMM algorithm based on the motion model**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.9763&rep=rep1&type=pdf) as prediction algorithm
   
